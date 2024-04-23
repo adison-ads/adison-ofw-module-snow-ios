@@ -20,7 +20,7 @@ let package = Package(
         .binaryTarget(
             name: "SnowOfwModule",
             url: "https://github.com/adison-ads/adison-ofw-module-snow-ios/releases/download/0.10.0/SnowOfwModule.zip",
-            checksum: ""
+            checksum: "7ac4a6c939c63a5b99de4b3fb88f2e17faa10a4c81cac563a6904409e6b5144e"
         ),
         .target(
             name: "SnowOfwModuleTarget",
