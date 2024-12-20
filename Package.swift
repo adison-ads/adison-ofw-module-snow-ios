@@ -12,15 +12,15 @@ let package = Package(
             targets: ["SnowOfwModule", "SnowOfwModuleTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/adison-ads/adison-offerwall-ios-sdk", exact: "3.6.1")
+        .package(url: "https://github.com/adison-ads/adison-offerwall-ios-sdk", exact: "3.8.6")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "SnowOfwModule",
-            url: "https://github.com/adison-ads/adison-ofw-module-snow-ios/releases/download/0.10.2/SnowOfwModule.zip",
-            checksum: "ff11c2dc1be93c1af0de9eaa0a267ce4ba24cbca7baac4ae4b9a455845f28376"
+            url: "https://github.com/adison-ads/adison-ofw-module-snow-ios/releases/download/0.11.0/SnowOfwModule.zip",
+            checksum: "e0c4a40921da9d648b70b26430f5eb4ca067915f436bf492c250cd45f078f171"
         ),
         .target(
             name: "SnowOfwModuleTarget",
